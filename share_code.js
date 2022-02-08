@@ -1,7 +1,7 @@
 var allShareCodes = [];
 var removedShareCodes = [];
-var chetou_number = process.env.CHETOU_NUMBER ? process.env.CHETOU_NUMBER : 0
-var fair_mode = process.env.FAIR_MODE ? true : false
+var chetou_number = process.env.CHETOU_NUMBER ? process.env.CHETOU_NUMBER : 5
+var fair_mode = process.env.FAIR_MODE ? true : true
 var precode_mode = process.env.PRECODE_MODE ? false : true
 
 exports.ModCK = function(cks) {
